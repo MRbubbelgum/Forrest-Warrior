@@ -55,6 +55,7 @@ public class Enemy : MonoBehaviour
         MainCharacter = GameObject.Find(mainCharacter);
         border = GameObject.FindGameObjectWithTag("Border").GetComponent<BorderScript>();
         healthBar = GameObject.FindGameObjectWithTag("EnemyHealthBar").GetComponent<HealthBar>();
+        
         rb = GetComponent<Rigidbody2D>();
         animator = rb.GetComponent<Animator>();
         currentHealth = maxHealth;

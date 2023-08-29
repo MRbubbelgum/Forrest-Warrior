@@ -1866,7 +1866,7 @@ MonoBehaviour:
   rb: {fileID: 449072700}
   controller: {fileID: 449072699}
   combatScript: {fileID: 449072703}
-  runSpeed: 8
+  runSpeed: 7
   jump: 0
   crouch: 0
   falling: 0
@@ -3434,6 +3434,10 @@ PrefabInstance:
     - target: {fileID: 8213300067944868714, guid: eb1910fbc69456f4cb4c3aff8ea934b5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371845057117799231, guid: eb1910fbc69456f4cb4c3aff8ea934b5, type: 3}
+      propertyPath: playerCombatScript
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5574,7 +5578,7 @@ MonoBehaviour:
   m_Follow: {fileID: 449072696}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 2
+    OrthographicSize: 2.7
     NearClipPlane: 1
     FarClipPlane: 100
     Dutch: 0
@@ -5600,7 +5604,7 @@ Transform:
   m_GameObject: {fileID: 1782368712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7678925, y: -0.4200002, z: -7}
+  m_LocalPosition: {x: 0.7741549, y: -0.29400027, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6157,7 +6161,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 2
+  orthographic size: 2.7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6182,7 +6186,7 @@ Transform:
   m_GameObject: {fileID: 2136161188}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7678925, y: -0.4200002, z: -7}
+  m_LocalPosition: {x: 0.7741549, y: -0.29400027, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6292,7 +6296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3124625289694506166, guid: 169043c8ee6936d40877540378b03a06, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2.89985
+      value: -2.74
       objectReference: {fileID: 0}
     - target: {fileID: 3124625289694506166, guid: 169043c8ee6936d40877540378b03a06, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6333,6 +6337,10 @@ PrefabInstance:
     - target: {fileID: 6437584008131298190, guid: 169043c8ee6936d40877540378b03a06, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012510936091962490, guid: 169043c8ee6936d40877540378b03a06, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.5150738
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -16,7 +16,7 @@ public class SkeletonTargetTrigger : MonoBehaviour
     void Start()
     {
         MainCharacter = GameObject.Find(mainCharacter);
-        GetComponent<PlayerCombat>();
+        playerCombatScript = MainCharacter.GetComponent<PlayerCombat>();
     }
 
     // Update is called once per frame
